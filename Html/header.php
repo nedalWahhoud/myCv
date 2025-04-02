@@ -41,7 +41,7 @@ $instgramLink = "https://www.instagram.com/nedal_wahhoud/";
           echo '<li><a href=\'index.php\'>'. $header_array[0] .'</a></li>';
           echo '<li><a href='.staticVariable::$myCvNamePage.'>'. $header_array[1] .'</a></li>';
           echo '<li><a href='.staticVariable::$contactPage.'>'. $header_array[2] .'</a></li>';
-          echo '<li><img src="'. $header_array[3] .'" alt="'. strtoupper(string: $lang) .'"  class="la-img"></li>';
+//          echo '<li><img src="'. $header_array[3] .'" alt="'. strtoupper(string: $lang) .'"  class="la-img"></li>';
          ?>
       </ul>
    </nav>
