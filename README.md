@@ -9,7 +9,7 @@ This project is a **digital resume and portfolio website**, designed to showcase
 
 - ✅ **Projects & Skills Overview**
 
-- ✅ **Responsive Design (Desktop & Mobile Friendly)**
+- ✅ **Responsive Design (Desktop)**
 
 - ✅ **Interactive Elements & Smooth Animations***
 
