@@ -30,5 +30,9 @@ Here are some screenshots of the website:</br>
 
 # 🤝 Contribution
 Feel free to fork this repository, submit issues, or create pull requests.
+# 🔒 Data Privacy & Security Notice  
+For privacy reasons, the **database files and sensitive credentials are not included** in this repository.  
+- Ensure you **set up your own database** before running the project.  
+
 
 
