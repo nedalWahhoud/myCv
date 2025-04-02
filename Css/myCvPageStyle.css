@@ -3,6 +3,21 @@
   --goldColor: #ffaa00;
   --jobCardWidth: 1200px;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+}
 .body-myCv {
   font-family: Arial, sans-serif;
   display: flex;

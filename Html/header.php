@@ -18,14 +18,13 @@ if (isset($_GET['lang'])) {
 }
 // vars
 $header_array = getHeaderTranslation(language: $lang);
-$linkedinLink = 'https://www.linkedin.com/in/nedal-wahhoud-81b26816a/';
-$xingLink = 'https://www.xing.com/profile/Nedal_Wahhoud/web_profiles/';
-$instgramLink = "https://www.instagram.com/nedal_wahhoud/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
    <title>Nedal Wahhoud</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- Linking the index style.css -->
    <link rel="stylesheet" href="css/indexStyle.css">
    <link rel="stylesheet" href="css/myCvPageStyle.css">

@@ -19,9 +19,9 @@
        echo '</div>';
        // social
        echo '<div class="social-icons">';
-       echo '<a href="'. $linkedinLink .'" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>';
-       echo '<a href="'. $xingLink .'" target="_blank" title="XING"><i class="fab fa-xing"></i></a>';
-       echo '<a href="'. $instgramLink .'" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>';
+       echo '<a href="'. staticVariable::$linkedinLink .'" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>';
+       echo '<a href="'. staticVariable::$xingLink .'" target="_blank" title="XING"><i class="fab fa-xing"></i></a>';
+       echo '<a href="'. staticVariable::$instgramLink .'" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>';
        echo '</div>';
        echo '</div>';
       ?>

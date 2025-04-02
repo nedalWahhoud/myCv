@@ -19,9 +19,9 @@ include 'Html\header.php'; // Header add
          echo '<h2>'. $row['en'] .'<br><span>'. $row['de'] .'</span></h2>';
          echo '<p class="job">'. getDatabase(queryCode: "translation",type: "s",key_word: 'JobTitle')[$lang] .'</p>';
          echo '<div class="social-links">';
-         echo '<a href="'. $linkedinLink .'" target="_blank"><i class="fab fa-linkedin"></i></a>';
-         echo '<a href="'. $xingLink .'" target="_blank"><i class="fab fa-xing"></i></a>';
-         echo '<a href="'. $instgramLink .'" target="_blank"><i class="fab fa-instagram"></i></a>';
+         echo '<a href="'. staticVariable::$linkedinLink .'" target="_blank"><i class="fab fa-linkedin"></i></a>';
+         echo '<a href="'. staticVariable::$xingLink .'" target="_blank"><i class="fab fa-xing"></i></a>';
+         echo '<a href="'. staticVariable::$instgramLink .'" target="_blank"><i class="fab fa-instagram"></i></a>';
          echo '</div>';
         ?>
     </div>
