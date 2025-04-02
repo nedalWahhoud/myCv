@@ -1,31 +1,34 @@
-<h1>🚀 Digital Resume / Personal Portfolio Website</h1>
-This project is a digital resume and portfolio website, designed to showcase personal information, professional experience, and projects interactively.
 
-<h2>🌟 Features</h2>
-<ul>
- <li>✅ Personal Information & Work Experience</li>
 
- <li>✅ Projects & Skills Overview</li>
+# 🚀 Digital Resume / Personal Portfolio Website
+This project is a **digital resume and portfolio website**, designed to showcase personal information, professional experience, and projects interactively.
 
- <li>✅ Responsive Design (Desktop & Mobile Friendly)</li>
+## 🌟 Features
 
- <li>✅ Interactive Elements & Smooth Animations (if applicable)</li>
+- ✅ **Personal Information & Work Experience**
 
- <li>✅ Downloadable Resume / CV (if applicable)</li>
+- ✅ **Projects & Skills Overview**
 
- <li>✅ Contact Form Integration (if applicable)</li>
-</ul>
-<h2>🛠️ Built With</h2>
-<ul>
-  <li><b>Frontend:</b>PHP, HTML, CSS, JavaScipt</li>
-  <li><b>Backend:</b>mySql</li>
-</ul>
-<h2>🎯 Live Demo</h2>
+- ✅ **Responsive Design (Desktop & Mobile Friendly)**
+
+- ✅ **Interactive Elements & Smooth Animations***
+
+- ✅ **Downloadable Resume / CV**
+
+- ✅ **Contact Form Integration**
+
+## 🛠️ Built With
+  **Frontend:** PHP, HTML, CSS, JavaScipt</br>
+  **Backend:** mySql
+## 🎯 Live Demo
 🔗 not yet hosted
-<h1>📸 Screenshots</h1>
+## 📸 Screenshots
 Here are some screenshots of the website:</br>
+![php1](https://github.com/user-attachments/assets/b3ac8ada-0ad6-43f0-942b-0edcdd611b66)</br>
+![php2](https://github.com/user-attachments/assets/de7a05ef-81dc-4c56-a8af-48cb7d6fb101)</br>
+![php3](https://github.com/user-attachments/assets/2383e444-2d8f-4b0b-82da-f64c0a4e043f)</br>
 
-
-
-<h2>🤝 Contribution</h2>
+# 🤝 Contribution
 Feel free to fork this repository, submit issues, or create pull requests.
+
+
