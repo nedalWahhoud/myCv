@@ -29,6 +29,8 @@ Here are some screenshots of the website:</br>
 ![php3](https://github.com/user-attachments/assets/2383e444-2d8f-4b0b-82da-f64c0a4e043f)</br>
 # ✉️ Mailer Setup  
 This project includes a **contact form with email functionality**. To enable this feature, you need to configure your **Gmail credentials** securely.  
+![php1](https://github.com/user-attachments/assets/6633dde7-570e-4657-8113-2818f66aa653)
+
 # 🔧 How to Set Up Gmail SMTP  
 1. Go to **[Google Account Security](https://myaccount.google.com/security)**  
 2. Enable **2-Step Verification** (if not already enabled)  
