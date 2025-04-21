@@ -20,11 +20,15 @@ if (isset($_GET['lang'])) {
 $header_array = getHeaderTranslation(language: $lang);
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-   <title>Nedal Wahhoud</title>
-   <meta charset="UTF-8">
+<meta charset="UTF-8">
+   <meta name="description" content="Job Lebenslauf von Nedal Wahhoud">
+   <meta name="keywords" content="Wahhoud, Nedal Wahhoud Lebenslauf, Nedal Wahhoud CV, Softwareentwickler, Online Lebenslauf">
+   <meta name="author" content="Nedal Wahhoud">
+   <meta name="robots" content="index, follow"> 
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Nedal Wahhoud</title>
    <!-- Linking the index style.css -->
    <link rel="stylesheet" href="css/indexStyle.css">
    <link rel="stylesheet" href="css/myCvPageStyle.css">
