@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+.body-contact {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+}
+/* h1 Contact */
+.hContact {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: calc(var(--headerHeight) + 100px);
+  width: auto;
+  display: block;
+  text-align: center;
+  height: 0%;
+}
+.hContact::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: var(--goldColor);
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+/* Contect Card */
+.contactCard {
+  background: var(--mainColor);
+  width: 600px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2.1);
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  gap: 20px;
+  color: #ffffff;
+}
+.row input {
+  width: 100%;
+}
+label {
+  color: #ffffff;
+}
+input,
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 8px;
+  padding-bottom: 10px;
+  outline: none;
+  font-size: 15px;
+  background: transparent;
+  transition: border-color 0.3s;
+  color: #ffffff;
+}
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid var(--goldColor);
+}
+.sendButton {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: var(--goldColor);
+  border: 2px solid var(--goldColor);
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.sendButton:hover {
+  background-color: #ffffff;
+  color: var(--mainColor);
+}
