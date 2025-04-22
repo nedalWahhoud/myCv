@@ -21,7 +21,7 @@ This project is a **digital resume and portfolio website**, designed to showcase
   **Frontend:** PHP, HTML, CSS, JavaScipt</br>
   **Backend:** mySql
 ## 🎯 Live Demo
-🔗 not yet hosted
+🔗 https://nedalwahhoud.de/
 ## 📸 Screenshots
 Here are some screenshots of the website:</br>
 ![php1](https://github.com/user-attachments/assets/b3ac8ada-0ad6-43f0-942b-0edcdd611b66)</br>
