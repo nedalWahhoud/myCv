@@ -39,6 +39,9 @@ This project includes a **contact form with email functionality**. To enable thi
 # 🤝 Contribution
 Feel free to fork this repository, submit issues, or create pull requests.
 # 🛢️ Database Schema  
-The database structure is provided in the file **`mycv.sql`**.  
+- The database structure is provided in the file **`mycv.sql`**. 
+- I have also included my personal information in the database, which you can replace with your own."
+
+
 
 
