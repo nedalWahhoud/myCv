@@ -2,12 +2,13 @@
 include 'dataProcessing.php';
 function mysqlConnect()
 {
-    $servername = "localhost";
-    $username = "root";  
-    $password = "";      
-    $database = "mycv"; 
-  
-    $conn = new mysqli($servername, $username, $password, $database);
+   $host_name = '127.0.0.1';
+   $database = 'mycv';
+   $user_name = 'root';
+   $password = ''; 
+  try
+  {
+    $conn = new mysqli(hostname: $host_name, username: $user_name, password: $password, database: $database);
     if ($conn) {
         writeLog(logType: 'info',message: "MySQL connected successfully");
         return $conn;  
@@ -15,6 +16,12 @@ function mysqlConnect()
         writeLog(logType: 'Error',message: "Connection failed");
         return null;  
     }
+  }
+  catch (Exception $e)
+  {
+    writeLog(logType: 'error', message: 'Exception: ' . $e->getMessage());
+    return null;
+  }
 }
 $conn = mysqlConnect();
 function getDatabase($queryCode,$type,$key_word): array|null {

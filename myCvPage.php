@@ -1,5 +1,9 @@
 <?php
-include 'Html\header.php'; // Header add
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
+<?php
+include 'Html/header.php'; // Header add
 ?>
 <body class="body-myCv">
    <!-- dropdown list language   -->
@@ -116,7 +120,7 @@ include 'Html\header.php'; // Header add
    </div>
   
    <?php
-     include 'Html\footer.php'; // Header add
+     include 'Html/footer.php'; // Header add
    ?>
 </body>
 </html>

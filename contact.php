@@ -1,5 +1,9 @@
 <?php
-include 'Html\header.php'; // Header add
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
+<?php
+include 'Html/header.php'; // Header add
 // show results from Mailer
 if(isset($_SESSION['message'])){
   $msg = $_SESSION['message'];
@@ -51,7 +55,7 @@ if(isset($_SESSION['message'])){
    ?>
   
    <?php
-    include 'Html\footer.php'; // footer add
+    include 'Html/footer.php'; // footer add
    ?>
 </body>
 </html>

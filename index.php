@@ -1,9 +1,13 @@
 <?php
-include 'Html\header.php'; // Header add
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
+<?php
+include 'Html/header.php'; // Header add
 ?>
 <body class="body-index">
   <?php
-  include 'Html\langList.php'; // lagunage list add
+  include 'Html/langList.php'; // lagunage list add
   ?>
    <!-- Profil card -->
    <div class="card">
@@ -46,7 +50,7 @@ include 'Html\header.php'; // Header add
       ?>
     </div>
     <?php
-      include 'Html\footer.php'; // footer add
+      include 'Html/footer.php'; // footer add
     ?>
 </body>
 </html>
