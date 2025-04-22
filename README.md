@@ -38,9 +38,6 @@ This project includes a **contact form with email functionality**. To enable thi
 4. Use the generated password instead of your regular Gmail password
 # 🤝 Contribution
 Feel free to fork this repository, submit issues, or create pull requests.
-# 🔒 Data Privacy & Security Notice  
-For privacy reasons, the **database files and sensitive credentials are not included** in this repository.  
-- Ensure you **set up your own database** before running the project.  
 # 🛢️ Database Schema  
 The database structure is provided in the file **`mycv.sql`**.  
 
