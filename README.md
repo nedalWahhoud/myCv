@@ -36,11 +36,12 @@ This project includes a **contact form with email functionality**. To enable thi
 2. Enable **2-Step Verification** (if not already enabled)  
 3. Generate an **App Password** under **App Passwords**  
 4. Use the generated password instead of your regular Gmail password
-# 🤝 Contribution
-Feel free to fork this repository, submit issues, or create pull requests.
 # 🛢️ Database Schema  
 - The database structure is provided in the file **`mycv.sql`**. 
 - I have also included my personal information in the database, which you can replace with your own."
+# 🤝 Contribution
+Feel free to fork this repository, submit issues, or create pull requests.
+
 
 
 
